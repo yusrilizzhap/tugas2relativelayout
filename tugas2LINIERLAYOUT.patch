@@ -1,0 +1,16 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1587789326000)
++++ app/src/main/res/layout/activity_main.xml	(date 1587790908582)
+@@ -8,7 +8,7 @@
+     android:padding="20dp"
+     android:layout_gravity="center"
+     android:background="@drawable/bg_prepare_login"
+-    tools:context=".auth">
++    tools:context="com.example.firebass.auth">
+ 
+     <LinearLayout
+         android:layout_width="373dp"
